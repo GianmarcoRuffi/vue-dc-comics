@@ -7,21 +7,33 @@
     <div class="btn-signup"><span>Sign-Up NOW!</span></div>
     <div class="links">
       <ul>
-        <li><a href="">Follow us</a></li>
         <li>
-          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><span class="bottom-text">Follow us</span></a>
         </li>
         <li>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <div class="social-wrap">
+            <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+          </div>
         </li>
         <li>
-          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <div class="social-wrap">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
         </li>
         <li>
-          <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+          <div class="social-wrap">
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
         </li>
         <li>
-          <a href=""><i class="fa-solid fa-location-dot"></i></a>
+          <div class="social-wrap">
+            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </li>
+        <li>
+          <div class="social-wrap">
+            <a href=""><i class="fa-solid fa-location-dot"></i></a>
+          </div>
         </li>
       </ul>
     </div>
