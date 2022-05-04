@@ -2,12 +2,15 @@
 <template>
   <body>
     <div class="main">
-      <div class="row placeholder">
-        <div
-          class="col-2"
-          v-for="(merchandiseLink, index) in merchandiseLinks"
-          :key="index"
-        ></div>
+      <div class="row">
+        <ul>
+          <li>
+            <div class="col-2" v-for="(card, index) in miniCards" :key="index">
+              <img :src="card.img" :alt="card.text" />
+              <span>{{ card.text }}</span>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
@@ -15,29 +18,34 @@
 
 <script>
 export default {
-  name: "Links",
+  name: "Merchandise",
   data() {
     return {
-      merchandiseLinks: [
+      miniCards: [
         {
           img: require("../assets/img/buy-comics-digital-comics.png"),
+          text: "DIGITAL COMICS",
           url: "#",
         },
 
         {
           img: require("../assets/img/buy-comics-merchandise.png"),
+          text: "DC MERCHANDISE",
           url: "#",
         },
         {
           img: require("../assets/img/buy-comics-subscriptions.png"),
+          text: "Subscription",
           url: "#",
         },
         {
           img: require("../assets/img/buy-comics-shop-locator.png"),
+          text: "Comic Shop Locator",
           url: "#",
         },
         {
           img: require("../assets/img/buy-dc-power-visa.svg"),
+          text: "DC Power Visa",
           url: "#",
         },
       ],
