@@ -3,6 +3,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
+  position: relative;
   height: 340px;
 
   h2 {
@@ -31,8 +32,8 @@ footer {
 }
 
 .footer-right {
-  background-image: url("../assets/img/dc-logo-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url("../assets/img/dc-logo-bg.png");
+  // background-repeat: no-repeat;
+  // background-size: cover;
   width: 60%;
 }
