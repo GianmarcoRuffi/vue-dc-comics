@@ -2,7 +2,7 @@
 <template>
   <footer>
     <div class="container">
-      <div class="footer-left d-flex">
+      <div class="footer-left">
         <div>
           <h2>DC Comics</h2>
           <ul>
