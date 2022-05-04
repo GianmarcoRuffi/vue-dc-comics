@@ -2,16 +2,18 @@
   <div id="app">
     <Header />
     <MainContent />
+    <Links />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import MainContent from "./components/MainContent.vue";
+import Links from "./components/Links.vue";
 
 export default {
   name: "App",
-  components: { Header, MainContent },
+  components: { Header, MainContent, Links },
 };
 </script>
 
