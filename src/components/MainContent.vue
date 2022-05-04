@@ -4,7 +4,9 @@
 </template>
 
 <script>
-export default {};
+export default { name: "Header" };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped lang="scss">
+@import "@/assets/maincontent.scss";
+</style>
