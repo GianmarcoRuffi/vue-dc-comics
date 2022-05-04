@@ -12,14 +12,22 @@
   list-style-type: none;
   padding: 20px;
   text-transform: uppercase;
-
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 .col-2 {
-  padding: 10px;
-}
-img {
-  width: 30px;
-  height: 40px;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 45px;
+    width: auto;
+  }
+
+  span {
+    padding-left: 10px;
+  }
 }
