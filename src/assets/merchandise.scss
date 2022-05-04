@@ -5,5 +5,21 @@
   height: 150px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+
+.row {
+  list-style-type: none;
+  padding: 20px;
+  text-transform: uppercase;
+
+  align-items: center;
+  display: flex;
+}
+.col-2 {
+  padding: 10px;
+}
+img {
+  width: 30px;
+  height: 40px;
 }

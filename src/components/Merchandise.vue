@@ -1,16 +1,12 @@
 !
 <template>
   <body>
-    <div class="main">
+    <div class="main d-flex justify-content-around">
       <div class="row">
-        <ul>
-          <li>
-            <div class="col-2" v-for="(card, index) in miniCards" :key="index">
-              <img :src="card.img" :alt="card.text" />
-              <span>{{ card.text }}</span>
-            </div>
-          </li>
-        </ul>
+        <div class="col-2" v-for="(card, index) in miniCards" :key="index">
+          <img :src="card.img" :alt="card.text" />
+          <span>{{ card.text }}</span>
+        </div>
       </div>
     </div>
   </body>
