@@ -1,8 +1,8 @@
 !
 <template>
   <footer>
-    <div class="footer-left d-flex">
-      <div class="row d-flex">
+    <div class="footer-left">
+      <div class="row">
         <div class="col-4">
           <h2>DC Comics</h2>
           <ul>

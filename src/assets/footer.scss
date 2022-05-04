@@ -2,9 +2,10 @@ footer {
   background-image: url("../assets/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 50px;
+
   position: relative;
   height: 340px;
+  display: flex;
 
   h2 {
     color: white;
@@ -29,6 +30,16 @@ footer {
 
 .footer-left {
   width: 40%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .col-4 {
+    float: left;
+    padding-right: 30px;
+  }
 }
 
 .footer-right {
@@ -36,4 +47,8 @@ footer {
   // background-repeat: no-repeat;
   // background-size: cover;
   width: 60%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
