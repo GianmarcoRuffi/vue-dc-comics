@@ -10,7 +10,7 @@
 </template>
 
 <script>
-export default { name: "MainContent" };
+export default { name: "mainContent" };
 </script>
 
 <style scoped lang="scss">
