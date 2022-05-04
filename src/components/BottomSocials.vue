@@ -22,6 +22,6 @@ export default { name: "Socials" };
 </script>
 
 <style scoped lang="scss">
-@import "@/assets/socials.scss";
+@import "@/assets/bottomSocials.scss";
 // @import "@/assets/generals.scss";
 </style>

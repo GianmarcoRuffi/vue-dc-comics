@@ -2,22 +2,22 @@
   <div id="app">
     <Header />
     <MainContent />
-    <Links />
+    <Merchandise />
     <Footer />
-    <Socials />
+    <BottomSocials />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import MainContent from "./components/MainContent.vue";
-import Links from "./components/Links.vue";
+import Merchandise from "./components/Merchandise.vue";
 import Footer from "./components/Footer.vue";
-import Socials from "./components/Socials.vue";
+import BottomSocials from "./components/BottomSocials.vue";
 
 export default {
   name: "App",
-  components: { Header, MainContent, Links, Footer, Socials },
+  components: { Header, MainContent, Merchandise, Footer, BottomSocials },
 };
 </script>
 
