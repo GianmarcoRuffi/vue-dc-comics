@@ -27,10 +27,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  @import "@/assets/generals.scss";
 }
 </style>
