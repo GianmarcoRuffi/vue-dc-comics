@@ -1,5 +1,5 @@
 <template>
-  <div class="main" id="products">
+  <div class="main" id="comics">
     <div v-for="(comic, index) in comics" :key="index">
       <CardTemplate :src="comic.thumb" :title="comic.series" />
     </div>
@@ -9,7 +9,7 @@
 <script>
 import CardTemplate from "@/components/CardTemplate.vue";
 export default {
-  name: "Jumbotron",
+  name: "Comics",
   components: {
     CardTemplate,
   },

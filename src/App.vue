@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Jumbotron />
     <MainContent />
     <Merchandise />
     <Footer />
@@ -14,10 +15,18 @@ import MainContent from "./components/MainContent.vue";
 import Merchandise from "./components/Merchandise.vue";
 import Footer from "./components/Footer.vue";
 import BottomSocials from "./components/BottomSocials.vue";
+import Jumbotron from "./components/Jumbotron.vue";
 
 export default {
   name: "App",
-  components: { Header, MainContent, Merchandise, Footer, BottomSocials },
+  components: {
+    Header,
+    MainContent,
+    Merchandise,
+    Footer,
+    BottomSocials,
+    Jumbotron,
+  },
 };
 </script>
 
@@ -31,6 +40,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  // @import "@/assets/generals.scss";
 }
+@import "@/assets/generals.scss";
 </style>
