@@ -1,6 +1,7 @@
 <template>
   <main id="comics">
     <div class="container">
+      <div class="product-label">Current Series</div>
       <!-- Card -->
       <div v-for="(comic, index) in comics" :key="index">
         <CardTemplate :src="comic.thumb" :title="comic.series" />
@@ -8,7 +9,7 @@
       <!-- /Card -->
     </div>
     <div class="load-more">
-      <div class="btn-signup"><span>Sign-Up NOW!</span></div>
+      <div class="btn-main"><span>Load More</span></div>
     </div>
   </main>
 </template>
