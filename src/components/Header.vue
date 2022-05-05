@@ -81,4 +81,5 @@ export default {
 
 <style scoped lang="scss">
 @import "@/assets/header.scss";
+@import "@/assets/generals.scss";
 </style>

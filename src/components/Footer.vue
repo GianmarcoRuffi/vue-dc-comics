@@ -59,5 +59,5 @@ export default { name: "Footer" };
 
 <style scoped lang="scss">
 @import "@/assets/footer.scss";
-// @import "@/assets/generals.scss";
+@import "@/assets/generals.scss";
 </style>

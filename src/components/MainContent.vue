@@ -15,5 +15,5 @@ export default { name: "mainContent" };
 
 <style scoped lang="scss">
 @import "@/assets/maincontent.scss";
-// @import "@/assets/generals.scss";
+@import "@/assets/generals.scss";
 </style>

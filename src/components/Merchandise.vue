@@ -52,5 +52,5 @@ export default {
 
 <style scoped lang="scss">
 @import "@/assets/merchandise.scss";
-// @import "@/assets/generals.scss";
+@import "@/assets/generals.scss";
 </style>
