@@ -15,6 +15,10 @@ ul li {
     text-transform: uppercase;
     font-weight: bold;
 
+    &:hover {
+      color: #0282f9;
+    }
+
     &.active {
       color: #0282f9;
     }
