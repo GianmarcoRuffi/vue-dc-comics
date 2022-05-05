@@ -18,9 +18,16 @@ img {
   width: 200px;
   object-fit: cover;
   object-position: top;
+  padding-bottom: 5px;
 }
 .card {
   max-width: 200px;
+  height: calc(200px + 36px);
   padding: 5px;
+  // margin-top: 5px;
+  // margin-bottom: 5px;
+  // margin-right: 30px;
+  // margin-left: 30px;
+  text-transform: uppercase;
 }
 </style>
