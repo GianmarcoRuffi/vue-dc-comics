@@ -1,4 +1,4 @@
-.main {
+main {
   background-color: #1c1c1c;
   color: white;
   width: 100%;
@@ -7,4 +7,29 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #0282f9;
+  padding: 10px 15px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #0282f9;
+  }
 }

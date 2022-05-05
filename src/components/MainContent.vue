@@ -1,9 +1,16 @@
 <template>
-  <div class="main" id="comics">
-    <div v-for="(comic, index) in comics" :key="index">
-      <CardTemplate :src="comic.thumb" :title="comic.series" />
+  <main id="comics">
+    <div class="container">
+      <!-- Card -->
+      <div v-for="(comic, index) in comics" :key="index">
+        <CardTemplate :src="comic.thumb" :title="comic.series" />
+      </div>
+      <!-- /Card -->
     </div>
-  </div>
+    <div class="load-more">
+      <div class="btn-signup"><span>Sign-Up NOW!</span></div>
+    </div>
+  </main>
 </template>
 
 <script>
