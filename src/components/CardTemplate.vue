@@ -28,5 +28,9 @@ img {
   margin-bottom: 10px;
   margin-right: 30px;
   text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 </style>
